@@ -597,7 +597,7 @@ transition: transform 0.2s ease;
 
     .contact-cta .breadcrumb {
       font-size: 0.9rem;
-      color: #888;
+      color:var(--bleu-fume);
       margin-bottom: 1rem;
     }
 
