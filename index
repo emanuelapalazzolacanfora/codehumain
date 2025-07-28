@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Humain - Développement Web & Expérience Utilisateur</title>
+  <meta name="description"
+    content="Développeuse web spécialisé en intégration HTML/CSS, accessibilité web et UX/UI. Une approche humaine du développement web.">
+
+  <!-- Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="/css/stylesheet.css">
+</head>
+
+<body>
+<a href="#main-content" class="skip-link">Aller au contenu principal</a>
+<nav id="navbar" class="nav-container" role="navigation" aria-label="Menu principal">
+  <div class="container container-navbar">
+    <a href="#accueil" class="logo">CODE HUMAIN</a>
+
+    <button class="mobile-menu-toggle" id="menu-toggle"
+            aria-controls="nav-links"
+            aria-expanded="false"
+            aria-label="Ouvrir ou fermer le menu de navigation">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+
+    <ul id="nav-links" class="nav-links">
+      <li><a href="#accueil">Accueil</a></li>
+      <li><a href="#apropos">À propos</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#approche">Approche</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#testimonials">Témoignages</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+  <main id="main-content" class="index-page">
+  <!-- Accueil -->
+  <section id="accueil" class="section hero visible">
+    <div class="container">
+      <div class="container-badge">
+      <span class="badge">
+                    💫 Code Humain approved
+                </span>
+      </div>
+            <div class="hero-content">
+        <h1>Créer du sens.<br>Coder avec cœur.</h1>
+        <p class="punchline">// Sites accessibles. Interfaces humaines. Code vivant.</p>
+        <p class="hero-description">
+          Je suis Emanuela, développeuse web & UX/UI designer.
+          J’aide les marques sensibles, les entrepreneurs engagés,
+          les créatifs anticonformistes à se rendre visibles — vraiment visibles.
+          Avec un code propre, une vision claire, et une attention radicale à l’expérience humaine.
+        </p>
+        <a href="#contact" class="cta-button">Parlez-moi de votre projet</a>
+      </div>
+    </div>
+  </section>
+  <!-- À propos -->
+  <section id="apropos" class="section">
+    <div class="container">
+      <h2 class="section-title">À propos</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Je m'appelle Emanuela. J’ai appris le code dans ma chambre, sur des forums RPG, bien avant que ce soit
+            "tendance".
+            Aujourd’hui, je développe des sites accessibles, humains et sensibles — parce que je sais ce que c’est, de
+            ne pas se sentir inclus.
+          </p>
+          <p>
+            Mon parcours est atypique. J’ai étudié la psychologie, puis je me suis formée seule, avant de décrocher un
+            diplôme de développeuse web full stack.
+            Ce que j’ai appris : ce n’est pas le diplôme qui fait la différence, c’est l’intention derrière chaque ligne
+            de code.
+          </p>
+          <p>
+            Mon approche est intuitive, ancrée dans l’écoute, l’observation, l’empathie. Je ne développe pas juste des
+            sites.
+            Je crée des ponts entre vous et les gens que vous voulez toucher.
+          </p>
+          <p>
+            Mon engagement : rendre le web plus juste, plus beau, plus inclusif. Pas de bling-bling. Du vrai, du propre,
+            du sensible.
+          </p>
+        </div>
+        <div class="about-image"><img src="https://i.postimg.cc/MTjq8KK7/shadow-emanuela-s-portrait.png"
+            alt="Image de fond" class="background">
+          <img src="https://i.postimg.cc/rFTcvT64/emanuela-palazzo-lacanfora-portrait.png" alt="Image au-dessus"
+            class="overlay">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section">
+    <div class="container">
+      <h2 class="section-title">Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>Intégration HTML/CSS</h3>
+          <p><em>La base solide qui fait toute la différence.</em>
+            Je transforme vos maquettes en sites performants, fluides, responsives.
+            Mon code est propre, sémantique, accessible, pensé pour chaque utilisateur — pas pour les robots ni les
+            raccourcis.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>Accessibilité Web</h3>
+          <p><em>Un site n’est pas vraiment bon s’il n’est pas pour tout le monde.</em>
+            Je conçois et j’optimise des interfaces inclusives, lisibles, compatibles avec les outils d’assistance.
+            Tests manuels, conformité WCAG, clarté des parcours : chaque détail compte pour que personne ne soit laissé
+            de côté.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>Sites sur mesure</h3>
+          <p>
+            <em>Choisir la bonne techno, c’est déjà penser accessibilité, autonomie et performance.</em>
+            WordPress, HTML/CSS pur, Framer… je m’adapte à votre besoin, pas l’inverse.
+            Je développe des sites évolutifs, accessibles et alignés avec votre identité — qu’il s’agisse d’un thème
+            WordPress personnalisé, d’un site statique ultra rapide ou d’une interface stylée sur Framer.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>UX/UI Design</h3>
+          <p>
+            <em>L’expérience utilisateur n’est pas un luxe, c’est la base.</em>
+            Je conçois des interfaces intuitives, esthétiques et efficaces.
+            Recherche utilisateur, wireframing, prototypage, tests d’utilisabilité…
+            Et toujours une attention aux mots : micro-copy, intitulés, messages — parce qu’un bon design, ça se lit
+            aussi.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>Optimisation Performance</h3>
+          <p>
+            <em>Pour un site rapide, visible et clair.</em>
+            J’analyse et j’optimise chaque détail de votre site : vitesse, SEO technique, responsive, expérience fluide.
+            Et j’affine aussi vos contenus — titres, hiérarchie, mots-clés — pour booster la clarté, la conversion et la
+            portée naturelle.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>Conseil & Accompagnement</h3>
+          <p>
+            <em>Un accompagnement stratégique, humain et aligné.</em>
+            Je vous aide à faire les bons choix techniques et éditoriaux.
+            On clarifie ensemble vos objectifs, votre positionnement, votre message.
+            Et je vous guide pas à pas vers un site qui vous ressemble — dans le fond comme dans la forme.
+          </p>
+        </div>
+      </div>
+       <div class="cta-section">
+      <p>Ces services vous parlent ?</p>
+      <a href="#contact" class="cta-link">Discutons autour d’un café virtuel ☕</a>
+    </div>
+    </div>
+  </section>
+  <section class="quote-highlight">
+  <div class="container">
+    <blockquote>
+      “Elle code avec finesse, mais surtout, elle comprend vite ce qu’on veut vraiment.”<br>
+      <span class="quote-author">— Julien, designer freelance</span>
+    </blockquote>
+  </div>
+</section>
+  <!-- Approche -->
+
+  <section id="approche" class="section">
+    <div class="container">
+      <h2 class="section-title">Ma Méthode</h2>
+      <div class="timeline-vertical">
+        <div class="timeline-step">
+          <div class="circle">1</div>
+          <div class="step-content">
+            <h3>Immersion</h3>
+            <p>On commence par s’écouter. Je prends le temps de comprendre votre métier, vos enjeux, vos utilisateurs.
+              Objectif : capter votre énergie et poser les bonnes bases.</p>
+          </div>
+        </div>
+        <div class="timeline-step">
+          <div class="circle">2</div>
+          <div class="step-content">
+            <h3>Conception</h3>
+            <p>On structure ensemble. Arborescence, wireframes, prototypes. Vous validez chaque étape, et on ajuste
+              jusqu’à ce que ça vous ressemble.</p>
+          </div>
+        </div>
+        <div class="timeline-step">
+          <div class="circle">3</div>
+          <div class="step-content">
+            <h3>Développement</h3>
+            <p>Là, je code. Dans le respect des standards, avec soin, avec clarté. Le site se construit brique par
+              brique, toujours testable, toujours évolutif.</p>
+          </div>
+        </div>
+        <div class="timeline-step">
+          <div class="circle">4</div>
+          <div class="step-content">
+            <h3>Tests & Optimisation</h3>
+            <p>Accessibilité, vitesse, responsive : on vérifie tout. Et on ajuste, parce qu’un bon site n’est jamais
+              figé.</p>
+          </div>
+        </div>
+        <div class="timeline-step">
+          <div class="circle">5</div>
+          <div class="step-content">
+            <h3>Livraison & Suivi</h3>
+            <p>Mise en ligne, formation, documentation. Et si besoin, je reste là pour le suivi, les évolutions, les
+              ajustements futurs.</p>
+          </div>
+        </div>
+      </div>
+      <div class="cta-section">
+      <p>Une façon de faire qui vous parle ?</p>
+      <a href="#contact" class="cta-link">Réservons un premier échange ✨</a>
+    </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="section">
+    <div class="container">
+      <h2 class="section-title">Portfolio</h2>
+      <div class="portfolio-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <span> Système Design Modulaire</span>
+          </div>
+          <div class="project-info">
+            <h3>Plateformes Narratives</h3>
+            <p>
+              Optimisation front-end de plusieurs plateformes créatives avec CSS centralisé, scripts personnalisés et
+              design UX cohérent. Fiches uniformisées au design, accessibilité pensée et système évolutif adaptable à
+              chaque nouvel univers.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML/CSS</span>
+              <span class="tag">JavaScript </span>
+              <span class="tag">Optimisation</span>
+              <span class="tag">Accessibilité </span>
+              <span class="tag">UI/UX</span>
+              <span class="tag">Design évolutif</span>
+
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <span>Site WordPress Créatif</span>
+          </div>
+          <div class="project-info">
+            <h3>Ivan Cacchioni – Directeur Artistique</h3>
+            <p>
+              Développement complet d’un site WordPress personnalisé avec animations, accessibilité, design responsive
+              et structure UX. Collaboration sur la charte graphique.
+            </p>
+            <div class="project-tags">
+              <span class="tag">WordPress </span>
+              <span class="tag">HTML/CSS</span>
+              <span class="tag">Animations </span>
+              <span class="tag">SEO</span>
+              <span class="tag">Accessibilité</span>
+              <span class="tag">UI/UX</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <span>Plateforme Design UX</span>
+          </div>
+          <div class="project-info">
+            <h3>S-Edge (Expérience de Marque)</h3>
+            <p>
+              Site multi-pages développé sur Framer : landing immersive, pages ressources, design cohérent, copywriting
+              stratégique et accessibilité intégrée. Une vitrine UX pensée pour convertir.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Framer</span>
+              <span class="tag">UI/UX</span>
+              <span class="tag">Copywriting</span>
+              <span class="tag">Accessibilité</span>
+              <span class="tag">Design system</span>
+              <span class="tag">No-code</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Témoignages -->
+  <section id="testimonials" class="section">
+    <div class="container">
+      <h2 class="section-title">Témoignages</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial">
+          <p class="testimonial-text">
+            Mon site rencontrait des problèmes côté utilisateur, notamment pour les connexions multi-comptes en
+            espagnol. Je ne savais pas comment les résoudre seule. Emanuela m’a tendu la main, avec patience,
+            bienveillance, et une vraie capacité d’adaptation — y compris à ma langue. Elle a pris le temps de
+            m’écouter, de comprendre mes besoins, et d’adapter le code en conséquence. Sa gentillesse et sa façon
+            d’aborder les choses m’ont profondément touchée.
+          </p>
+          <div class="testimonial-author">Maria (Espagne),</div>
+          <div class="testimonial-role"> Administratrice de plateforme communautaire</div>
+        </div>
+        <div class="testimonial">
+          <p class="testimonial-text">
+            Une développeuse impliquée, à l’écoute, et toujours à fond. Emanuela a su répondre à toutes mes demandes,
+            sans jamais reculer devant un défi technique. Chaque problème est une occasion pour elle d’aller plus loin,
+            toujours avec l’humain en ligne de mire. Son professionnalisme et sa passion font toute la différence.
+          </p>
+          <div class="testimonial-author">Cynthia (Fance),</div>
+          <div class="testimonial-role">Fondatrice & Administratrice de plateformes narratives</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+ <section id="contact" class="section visible">
+   <div class="container"><h2 class="section-title">Un site, c’est une rencontre avant tout</h2>
+  <div class="contact-grid">
+    <div class="contact-form">
+      <h3>Parlons de votre projet</h3>
+     <form action="https://formsubmit.io/send/emanuela.palazzo.lacanfora@gmail.com" method="POST">
+  <input type="hidden" name="_redirect" value="https://codepen.io/emanuelapalazzolacanfora/pen/bNVwNdo">
+  <input type="hidden" name="_captcha" value="true">
+  <input type="hidden" name="_formsubmit_id" value="">
+
+  <!-- Honeypot -->
+  <div style="display: none;">
+    <label for="honeypot">Ne remplissez pas ce champ si vous êtes humain</label>
+    <input type="text" name="honeypot" id="honeypot" tabindex="-1" autocomplete="off">
+  </div>
+
+  <!-- Champ nom -->
+  <div class="form-group">
+    <label for="name">Nom complet *</label>
+    <p id="name-desc" class="visually-hidden">Entrez votre nom et prénom complet.</p>
+    <input type="text" id="name" name="name" required aria-describedby="name-desc">
+  </div>
+
+  <!-- Champ email -->
+  <div class="form-group">
+    <label for="email">Email *</label>
+    <p id="email-desc" class="visually-hidden">Indiquez une adresse e-mail valide pour que je puisse vous répondre.</p>
+    <input type="email" id="email" name="email" required aria-describedby="email-desc">
+  </div>
+
+  <!-- Champ entreprise -->
+  <div class="form-group">
+    <label for="company">Entreprise</label>
+    <p id="company-desc" class="visually-hidden">Nom de votre structure ou projet (facultatif).</p>
+    <input type="text" id="company" name="company" aria-describedby="company-desc">
+  </div>
+
+  <!-- Champ message -->
+  <div class="form-group">
+    <label for="message">Décrivez votre projet *</label>
+    <p id="message-desc" class="visually-hidden">
+      Décrivez votre projet avec le plus de détails possible : vos objectifs, votre cible, vos contraintes.
+    </p>
+    <textarea id="message" name="message" rows="5" required aria-describedby="message-desc" placeholder="Parlez-moi de vos objectifs, de votre cible et de vos contraintes..."></textarea>
+  </div>
+
+  <!-- Bouton -->
+  <button type="submit" class="cta-button">Envoyer le message</button>
+</form>
+
+    </div>
+    <div class="contact-cta">
+      <p class="breadcrumb">/ contactez-moi /
+      </p>
+      <h3 class="title-cta">Prendre le temps de se comprendre,<br>
+         mieux créer ensemble.
+      </h3>
+      <p class="intro-text">
+        Ici, pas de formule magique ni de blabla technique inutile.<br>
+        On échange pour de vrai, on creuse ce qui compte — vos idées, vos valeurs, vos utilisateurs.<br>
+        <span class="punchline">Mon but : traduire tout ça dans un site vivant, juste et clair.</span>
+      </p>
+      <h3>Autres moyens de me contacter
+      </h3>
+      <div class="connect-grid">
+        <div>
+          <h4>☕ Appel découverte</h4>
+          <p>20 minutes pour poser les bases, répondre à vos questions, voir si le feeling est là.</p>
+          <a href="https://calendly.com/..." class="cta-button">Réserver un café virtuel</a>
+        </div>
+
+        <div>
+          <h4>💬 Whatsapp disponible</h4>
+          <p>Pas toujours simple de se lancer.
+Un message ici, quand vous êtes prêt·e — et on prend le temps.</p>
+          <a href="https://wa.me/33612345678" class="cta-button">Envoyer un message</a>
+        </div>
+        <div>
+          <h4>📧 Email</h4>
+          <p><a href="mailto:hello@codehumain.fr" class="connect-button">hello@codehumain.fr</a></p>
+        </div>
+        <div>
+          <h4>🌐 Réseaux</h4>
+          <p>
+            <a href="#">LinkedIn</a> ·
+            <a href="#">Instagram</a> ·
+            <a href="#">GitHub</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+</section>
+<section class="code-humain-testimonial">
+  <div class="container">
+    <p class="quote-inline">Avec Emanuela, j’ai découvert ce que <strong>Code Humain</strong> veut vraiment dire.</p>
+  </div>
+</section>
+      </main>
+
+  <!-- Footer -->
+<footer class="footer-code-humain">
+  <button id="backToTop" aria-label="Retour en haut">
+  ↑
+</button>
+  <div class="footer-container">
+    <div class="footer-intro">
+      <p>
+        Web développeuse indépendante, je construis des sites justes et humains, avec une exigence technique et une vraie écoute. 
+        Chaque ligne de code tissée avec soin, c’est un peu plus de sens dans le web. 
+        <span class="signature-fil-rouge">Code Humain</span>, toujours.
+      </p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="mailto:hello@codehumain.fr"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <ul>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#approche">Approche</a></li>
+      </ul>
+      <ul>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#testimonials">Témoignage</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-copy">
+      <p>&copy;2025 Emanuela Palazzo Lacanfora — Tous droits réservés.</p>
+      <p class="footer-signature">Un site signé <span class="code-humain-badge">Code Humain</span>.</p>
+    </div>
+  </div>
+</footer>
+    <script src="/js/mobilnav.js"></script>
+    <script src="/js/scrolltop.js"></script>
+    <script src="/js/animation.js"></script>
+</body>
+
+</html>
